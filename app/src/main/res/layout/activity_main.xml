@@ -14,7 +14,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="TextView"
+            android:text="Filmes"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.164"
             app:layout_constraintStart_toStartOf="parent"
@@ -67,12 +69,15 @@
                     android:src="@drawable/img" />
             </LinearLayout>
         </HorizontalScrollView>
+
         <TextView
             android:id="@+id/tv2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="TextView"
+            android:text="Séries"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.164"
             app:layout_constraintStart_toStartOf="parent"
@@ -125,12 +130,15 @@
                     android:src="@drawable/img" />
             </LinearLayout>
         </HorizontalScrollView>
+
         <TextView
             android:id="@+id/tv3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="TextView"
+            android:text="Novelas"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.164"
             app:layout_constraintStart_toStartOf="parent"
