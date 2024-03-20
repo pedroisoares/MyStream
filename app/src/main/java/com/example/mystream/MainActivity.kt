@@ -30,13 +30,28 @@ class MainActivity : AppCompatActivity() {
 
         imgView1.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
-
+                val titulo="Madame Teia"
+                val classe="Filme"
+                val sinopse="Depois de sobreviver a um terrível acidente, a paramédica Cassandra Webb começa a desenvolver habilidades de clarividência. Forçada a enfrentar revelações sobre seu passado, ela estabelece um relacionamento com três jovens destinadas a futuros poderosos... se todas conseguirem sobreviver a um presente mortal.\n" +
+                        "\n" +
+                        "S.J. Clarkson"
+                putExtra("image", R.drawable.img)
+                putExtra("titulo",titulo)
+                putExtra("classe",classe)
+                putExtra("sinopse",sinopse)
             }
             Toast.makeText(this," clicou imagem 1",LENGTH_SHORT).show()
             startActivity(intent)
         }
         imgView2.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                val titulo="Bob Marley One Love"
+                val classe="Filme"
+                val sinopse="O jamaicano Bob Marley supera as adversidades para se tornar um dos o músicos mais famosos do mundo."
+                putExtra("image", R.drawable.img_1)
+                putExtra("titulo",titulo)
+                putExtra("classe",classe)
+                putExtra("sinopse",sinopse)
 
             }
             Toast.makeText(this," clicou imagem 2",LENGTH_SHORT).show()
@@ -44,6 +59,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView3.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_2)
 
             }
             Toast.makeText(this," clicou imagem 3",LENGTH_SHORT).show()
@@ -51,6 +67,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView4.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_3)
 
             }
             Toast.makeText(this," clicou imagem 4",LENGTH_SHORT).show()
@@ -58,6 +75,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView5.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_4)
 
             }
             Toast.makeText(this," clicou imagem 5",LENGTH_SHORT).show()
@@ -65,6 +83,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView6.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_5)
 
             }
             Toast.makeText(this," clicou imagem 6",LENGTH_SHORT).show()
@@ -72,6 +91,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView7.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_6)
 
             }
             Toast.makeText(this," clicou imagem 7",LENGTH_SHORT).show()
@@ -79,6 +99,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView8.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_7)
 
             }
             Toast.makeText(this," clicou imagem 8",LENGTH_SHORT).show()
@@ -86,6 +107,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView9.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_8)
 
             }
             Toast.makeText(this," clicou imagem 9",LENGTH_SHORT).show()
@@ -93,6 +115,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView10.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_9)
 
             }
             Toast.makeText(this," clicou imagem 10",LENGTH_SHORT).show()
@@ -100,6 +123,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView11.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_10)
 
             }
             Toast.makeText(this," clicou imagem 11",LENGTH_SHORT).show()
@@ -107,6 +131,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView12.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_11)
 
             }
             Toast.makeText(this," clicou imagem 12",LENGTH_SHORT).show()
@@ -114,6 +139,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView13.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_12)
 
             }
             Toast.makeText(this," clicou imagem 13",LENGTH_SHORT).show()
@@ -121,6 +147,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView14.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_13)
 
             }
             Toast.makeText(this," clicou imagem 14",LENGTH_SHORT).show()
@@ -128,6 +155,7 @@ class MainActivity : AppCompatActivity() {
         }
         imgView15.setOnClickListener {
             val intent: Intent = Intent(this,MovieDetailActivity::class.java).apply {
+                putExtra("image", R.drawable.img_14)
 
             }
             Toast.makeText(this," clicou imagem 15",LENGTH_SHORT).show()
